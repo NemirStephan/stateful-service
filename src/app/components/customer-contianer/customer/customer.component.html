@@ -1,0 +1,26 @@
+<lg-card>
+  <div>
+    <form [formGroup]="customerForm">
+      <button lg-button variant="primary" (click)="remove()">-</button>
+      <button
+        lg-button
+        lgMarginLeft="xxs"
+        variant="primary"
+        (click)="refreshCustomer()"
+      >
+        Refresh
+      </button>
+      <button
+        lg-button
+        lgMarginLeft="xxs"
+        lgMarginRight="xxs"
+        variant="primary"
+        (click)="updateCustomer()"
+      >
+        Update
+      </button>
+      <input lgInput formControlName="name" />
+      <label lgMarginLeft="xxs" controlName="lastRefreshed"></label>
+    </form>
+  </div>
+</lg-card>

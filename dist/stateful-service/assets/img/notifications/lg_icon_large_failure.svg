@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="122px" height="122px" viewBox="0 0 122 122" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 54 (76480) - https://sketchapp.com -->
+    <title>lg_icon_large_failure</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="55.2" cy="55.2" r="55.2"></circle>
+        <rect id="path-3" x="13.2" y="30" width="85.2" height="98.4" rx="4"></rect>
+        <path d="M23.0493472,4.98700642 L38.4585339,33.9925343 C39.2358557,35.4557284 38.6798464,37.2720253 37.2166524,38.0493472 C36.7832416,38.2795966 36.2999613,38.4 35.8091867,38.4 L4.9908133,38.4 C3.33395905,38.4 1.9908133,37.0568542 1.9908133,35.4 C1.9908133,34.9092254 2.11121667,34.4259451 2.34146614,33.9925343 L17.7506528,4.98700642 C18.5279747,3.52381238 20.3442716,2.96780311 21.8074657,3.74512494 C22.3360427,4.02593147 22.7685406,4.45842942 23.0493472,4.98700642 Z" id="path-4"></path>
+    </defs>
+    <g id="MA-/-Alerts-&amp;-Notifications" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="0.40-Failure" transform="translate(-99.000000, -157.000000)">
+            <g id="lg_icon_large_failure" transform="translate(100.000000, 158.000000)">
+                <circle id="Oval" stroke="#0099CC" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" cx="60" cy="60" r="60"></circle>
+                <g id="Rectangle" transform="translate(4.800000, 4.800000)">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <use id="Mask" fill="#E5F5FC" xlink:href="#path-1"></use>
+                    <g stroke-linecap="round" stroke-linejoin="round" mask="url(#mask-2)">
+                        <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-3"></use>
+                        <rect stroke="#FFFFFF" stroke-width="3" x="11.7" y="28.5" width="88.2" height="101.4" rx="4"></rect>
+                        <use stroke="#0099CC" stroke-width="2" xlink:href="#path-3"></use>
+                    </g>
+                    <circle id="Oval" fill="#0099CC" mask="url(#mask-2)" cx="21.6" cy="37.2" r="2.4"></circle>
+                    <circle id="Oval-Copy-4" fill="#0099CC" mask="url(#mask-2)" cx="28.8" cy="37.2" r="2.4"></circle>
+                    <circle id="Oval-Copy-5" fill="#0099CC" mask="url(#mask-2)" cx="36" cy="37.2" r="2.4"></circle>
+                    <rect fill="#0099CC" mask="url(#mask-2)" x="43.2" y="36" width="44.4" height="2.4" rx="1.2"></rect>
+                </g>
+                <g id="Warning" transform="translate(39.600000, 54.000000)">
+                    <g id="Triangle" stroke-linecap="round" stroke-linejoin="round">
+                        <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-4"></use>
+                        <path stroke="#FFFFFF" stroke-width="2" d="M23.9324629,4.51785119 L39.3416496,33.5233791 C40.3780787,35.4743045 39.636733,37.8960338 37.6858076,38.9324629 C37.1079266,39.2394622 36.4635528,39.4 35.8091867,39.4 L4.9908133,39.4 C2.7816743,39.4 0.9908133,37.609139 0.9908133,35.4 C0.9908133,34.7456339 1.15135113,34.1012601 1.45835042,33.5233791 L16.8675371,4.51785119 C17.9039662,2.56692581 20.3256955,1.82558011 22.2766209,2.86200922 C22.9813902,3.23641792 23.5580542,3.81308186 23.9324629,4.51785119 Z"></path>
+                        <path stroke="#0099CC" stroke-width="2" d="M22.1662314,5.45616164 C21.9790271,5.10377698 21.6906951,4.81544501 21.3383105,4.62824065 C20.3628478,4.1100261 19.1519831,4.48069895 18.6337686,5.45616164 L3.22458186,34.4616895 C3.07108221,34.7506301 2.9908133,35.0728169 2.9908133,35.4 C2.9908133,36.5045695 3.8862438,37.4 4.9908133,37.4 L35.8091867,37.4 C36.1363698,37.4 36.4585566,37.3197311 36.7474972,37.1662314 C37.7229598,36.6480169 38.0936327,35.4371522 37.5754181,34.4616895 L22.1662314,5.45616164 Z" stroke-linejoin="square"></path>
+                    </g>
+                    <circle id="Oval-Copy-2" fill="#0099CC" cx="20.4" cy="30" r="1.2"></circle>
+                    <rect id="Rectangle" fill="#0099CC" x="19.2" y="14.4" width="2.4" height="12" rx="1"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

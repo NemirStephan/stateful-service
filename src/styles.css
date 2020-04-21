@@ -1,0 +1,14 @@
+/* You can add global styles to this file, and also import other style files */
+.lg-btn {
+  min-width: auto !important;
+  width: auto !important;
+  margin-bottom: 0px !important;
+}
+
+p {
+  margin-bottom: 2px;
+}
+
+.lg-card__body {
+  padding: 5px !important;
+}

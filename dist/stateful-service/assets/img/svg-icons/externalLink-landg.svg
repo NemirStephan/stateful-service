@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 59.1 (86144) - https://sketch.com -->
+    <title>OpenInNewWindow</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M13.6421053,4.54736842 L13.6413684,6.06278947 L6.06315789,6.06315789 L6.06315789,18.1894737 L18.1894737,18.1894737 L18.1893684,10.6097895 L19.7052632,10.6105263 L19.7052632,19.7052632 L4.54736842,19.7052632 L4.54736842,4.54736842 L13.6421053,4.54736842 Z M22.7368421,1.51578947 L22.7368421,8.33684211 C22.7368421,8.75541581 22.3975211,9.09473684 21.9789474,9.09473684 C21.5952548,9.09473684 21.2781565,8.80961292 21.2279713,8.43968393 L21.2210526,8.33684211 L21.2204211,4.10278947 L12.6622283,12.6622283 C12.3931589,12.9312977 11.9721093,12.9557585 11.6754072,12.7356109 L11.5904033,12.6622283 C11.3213339,12.3931589 11.2968731,11.9721093 11.5170207,11.6754072 L11.5904033,11.5904033 L20.1484211,3.03078947 L15.9157895,3.03157895 C15.5320969,3.03157895 15.2149986,2.74645502 15.1648134,2.37652604 L15.1578947,2.27368421 C15.1578947,1.88999165 15.4430187,1.57289334 15.8129476,1.52270816 L15.9157895,1.51578947 L22.7368421,1.51578947 Z" id="path-1"></path>
+    </defs>
+    <g id="OpenInNewWindow" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Foundation/UI-Icon/Icon/Navigation/open-in-new-window">
+            <g id="UI-Icon/icon-grid"></g>
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <use id="Open-in-New-Window" fill="#0076d6" fill-rule="nonzero" xlink:href="#path-1"></use>
+            <g id="Foundation/Colour" mask="url(#mask-2)" fill="#0076d6" fill-rule="evenodd">
+                <rect id="Color" x="0" y="0" width="24" height="24"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

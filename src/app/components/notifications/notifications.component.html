@@ -1,0 +1,7 @@
+<lg-card>
+    <button lg-button lgMarginBottom="xxl" variant="primary" (click)="clear()"
+      >Clear</button>
+    <ng-container *ngFor="let notification of notifications">
+      <p>{{ notification }}</p>
+    </ng-container>
+</lg-card>

@@ -1,0 +1,86 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "description": "A simple API.",
+    "version": "1",
+    "title": "Stateful Service API"
+  },
+  "schemes": ["http"],
+  "consumes": ["application/json"],
+  "produces": ["application/json"],
+  "paths": {
+    "/customer": {
+      "get": {
+        "tags": ["Customer"],
+        "parameters": [
+          {
+            "name": "customerId",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "All status and verification checks have succeeded",
+            "schema": {
+              "$ref": "#/definitions/Customer"
+            }
+          }
+        }
+      },
+      "post": {
+        "tags": ["Customer"],
+        "parameters": [
+          {
+            "name": "customer",
+            "in": "body",
+            "required": true,
+            "schema": {
+              "$ref": "#/definitions/Customer"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "All status and verification checks have succeeded",
+            "schema": {
+              "$ref": "#/definitions/Customer"
+            }
+          }
+        }
+      }
+    },
+    "/customer/random-numbers": {
+      "get": {
+        "tags": ["Customer"],
+
+        "responses": {
+          "200": {
+          }
+        }
+      }
+    }
+  },
+  "definitions": {
+    "Customer": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "number",
+          "required": true
+        },
+        "name": {
+          "type": "string",
+          "required": true
+        },
+        "lastUpdated": {
+          "type": "string",
+          "required": true
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,18 @@
+<lg-card>
+  <div>
+    <p>
+      <button lg-button variant="primary" (click)="remove()">-</button>
+      <button
+        lg-button
+        lgMarginLeft="xxs"
+        variant="primary"
+        (click)="refresh()"
+      >
+        Refresh
+      </button>
+      <label *ngIf="randomNumbers$ | async; let rn" lgMarginLeft="xxs">{{
+        rn
+      }}</label>
+    </p>
+  </div>
+</lg-card>
